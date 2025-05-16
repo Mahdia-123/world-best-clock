@@ -11,30 +11,32 @@
   <body>
     <div class="container">
       <h1>World Clock</h1>
-      <select>
-        <option value="">Choose a city</option>
-        <option value="">Kabul 🇦🇫</option>
-        <option value="">paris 🇫🇷</option>
-        <option value="">Toronto 🇨🇦</option>
+      <select id="city">
+        <option value="">Choose a city..</option>
+        <option value="Asia/Kabul">Kabul 🇦🇫</option>
+        <option value="Europe/Paris">paris 🇫🇷</option>
+        <option value="America/Toronto">Toronto 🇨🇦</option>
       </select>
-      <div class="city" id="sydney">
-        <div>
-          <h2>Sydney 🇦🇺</h2>
-          <div class="date"></div>
+      <div id="cities">
+        <div class="city" id="sydney">
+          <div>
+            <h2>Sydney 🇦🇺</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
-      </div>
 
-      <div class="city" id="toronto">
-        <div>
-          <h2>Toronto 🇨🇦</h2>
-          <div class="date"></div>
+        <div class="city" id="toronto">
+          <div>
+            <h2>Toronto 🇨🇦</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
       </div>
-
-      <script src="javascript/index.js"></script>
     </div>
+    <script src="javascript/index.js"></script>
+
     <footer>
       This Project was Coded by
       <a href="https://github.com/Mahdia-123" target="_blank"
